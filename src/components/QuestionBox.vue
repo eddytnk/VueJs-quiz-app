@@ -9,7 +9,6 @@
           <AnswerBox :answer="ans" :correctAnswer="question.correct_answer" :next="next" />
         </b-list-group-item>
       </b-list-group>
-      <b-button variant="primary" href="#">Submit</b-button>
       <b-button variant="success" @click="next">Next</b-button>
     </b-jumbotron>
   </div>
